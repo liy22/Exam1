@@ -187,13 +187,13 @@ def multiply_primes(m,n):
     #   DONE: 6. Write the function multiply_primes(m,n) below here
     # After you have coded and tested, change this _TODO_ to DONE.
     ###############################################################################
-    total = 1
+
     count = 0
     for k in range(n-m+1):
         if is_prime(m+k) is True:
-
             count = count + 1
 
+    total = 1
     for k in range(n-m+1):
         if is_prime(m+k) is True:
             total = total *(m+k)
